@@ -89,10 +89,10 @@ void CFTMD::initSubMD()
 	delete[] codes;
 	delete[] InstrumentIDs;
 }
-void CFTMD::test()
-{
-	cout <<"LastDepth['jjssd'].LastPrice " <<LastDepth["jjssd"].LastPrice << endl;
-}
+//void CFTMD::test()
+//{
+//	cout <<"LastDepth['jjssd'].LastPrice " <<LastDepth["jjssd"].LastPrice << endl;
+//}
 void CFTMD::OnRspSubMarketData(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
 {
 	if (bIsLast)

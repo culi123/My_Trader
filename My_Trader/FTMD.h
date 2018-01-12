@@ -41,7 +41,7 @@ public:
 	void OnRspUnSubMarketData(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast);
 	//µÇ³öÍ¨Öª
 	void OnRspUserLogout(CThostFtdcUserLogoutField *pUserLogout, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast);
-	void test();
+	//void test();
 private:
     CFTTD *g_pTdHandler;
 };
